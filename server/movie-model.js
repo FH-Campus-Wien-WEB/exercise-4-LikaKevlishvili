@@ -106,7 +106,7 @@ const initialMovies = {
 };
 
 const userMovies = {
-  joe: structuredClone(initialMovies),
+  lika: structuredClone(initialMovies),
   jane: structuredClone(initialMovies)
 };
 

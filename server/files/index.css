@@ -8,7 +8,7 @@ body {
 }
 
 article {
-  background-color: rgba(211, 211, 211, 0.9);
+  background-color: rgba(76, 84, 122, 0.66);
   border-radius: 16px;
   padding: 16px;
   width: 384px;
@@ -37,8 +37,22 @@ span {
 
 .genre {
   padding: 4px 8px;
-  border: solid black 1px;
+  border: solid #e9f5dc 1px;
   border-radius: 6px;
-  background-color: darkgray;
+  background-color: #e9f5dc;
   font-weight: bold;
+}
+article,
+article h1,
+article h2,
+article p,
+article li,
+article span {
+  color: #f2f6ff;
+}
+
+.genre {
+  color: #ffffff;
+  background-color: rgba(15, 35, 70, 0.85);
+  border: 1px solid #93c5fd;
 }

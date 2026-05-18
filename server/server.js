@@ -149,7 +149,7 @@ app.post("/login", function (req, res) {
   const username = req.body.username;
   const password = req.body.password;
 
-  const user = userModel[username];
+  const user = userModel.getUserByUsername(username);
 
   if (user && bcrypt.compareSync(password, user.password)) {
     req.session.user = {
